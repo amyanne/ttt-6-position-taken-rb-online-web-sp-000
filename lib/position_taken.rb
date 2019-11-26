@@ -1,1 +1,3 @@
-# code your #position_taken? method here!
+def position_taken?(board, indexed_input)
+      board[indexed_input] == " " ? false : true
+   end
